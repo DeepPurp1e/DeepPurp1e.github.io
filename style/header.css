@@ -12,6 +12,20 @@
 	font-family: Arial, Helvetica, sans-serif; 
 	color: silver; 
 }
+.content_box { 
+	width: 30%;
+	flex: auto;
+}
+
+.content_image { 
+
+	float: left;
+}
+
+.content_descr { 
+	vertical-align: right;
+}
+
 .widget { 
 	height: 200px;
 	width: 400px;
