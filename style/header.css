@@ -19,16 +19,27 @@
 
 #logo { 
     position:absolute;
-	left:40%;
-	top: 10px;
+	left:;
+	top: 5px;
 	float: right;
 }
 
-#creatorsdescription {
+#creatorsdescription2 {
     position:absolute;
 	right:10px;
 	top: 10px;
 	float: right;
+	font-size: 80%;
+	
+}
+
+#creatorsdescription1 {
+    position:absolute;
+	right:110px;
+	top: 10px;
+	float: right;
+	font-size: 80%;
+	
 }
 #line {
 	margin: 110px 0 30px 0;
