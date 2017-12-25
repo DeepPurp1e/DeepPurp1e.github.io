@@ -22,7 +22,7 @@
 	color: rgb(255,60,16);
 	text-align: center;
 	margin: 20px 20px 20px 20px; /* Отступ слева */
-    width: 20%; /* Ширина слоя */
+    width: 200px; /* Ширина слоя */
     background: rgb(100,100,100); /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
 }
