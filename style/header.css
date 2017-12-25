@@ -1,6 +1,4 @@
-.wrapper {
 
-}
 .content {
 	font-size: 100%; 
 	font-family: Arial, Helvetica, sans-serif; 
@@ -13,6 +11,11 @@
 	font-family: Arial, Helvetica, sans-serif; 
 	color: silver; 
 }
+
+.layer_box { 
+	column-count: 4;
+}
+
 .content_box { 
 	border-radius: 10px; 
 	font-family: Century Gothic, sans-serif;
@@ -24,6 +27,7 @@
 	margin: 20px 20px 20px 20px; /* Отступ слева */
     width: 200px; /* Ширина слоя */
     background: rgb(100,100,100); /* Цвет фона */
+	break-inside: avoid;
     padding: 10px; /* Поля вокруг текста */
 }
 
