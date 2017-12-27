@@ -23,7 +23,7 @@
 }
 
 .layer_box { 
-	column-count: 4;
+	column-count: 3;
 }
 
 .content_box { 
@@ -121,5 +121,21 @@
 
 #table_crypto {
 	text-align: center;
+
    
+}
+
+#MUIndex {
+	image-rendering: auto;
+	border-radius: 40px; 
+	font-family: Century Gothic, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: black 2px 3px 4px;
+	color: rgb(255,60,16);
+	text-align: center;
+	margin: 20px 20px 20px 20px; /* Отступ слева */
+    width: 500px; /* Ширина слоя */
+    background: rgb(100,100,100); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
 }
