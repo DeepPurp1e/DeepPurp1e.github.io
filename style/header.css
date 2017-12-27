@@ -12,6 +12,15 @@
 	color: silver; 
 }
 
+.icon { 
+	border-radius: 30px; 
+	margin: 20px 20px 20px 20px; /* Отступ слева */
+    width: 100px; /* Ширина слоя */
+    background: rgb(100,100,100); /* Цвет фона */
+	break-inside: avoid;
+    padding: 10px; /* Поля вокруг текста */
+}
+
 .layer_box { 
 	column-count: 4;
 }
