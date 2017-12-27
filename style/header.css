@@ -125,17 +125,13 @@
    
 }
 
-#MUIndex {
+#MUIndex2 {
 	image-rendering: auto;
-	border-radius: 40px; 
-	font-family: Century Gothic, sans-serif;
-	font-size: 1em;
-	font-weight: bold;
-	text-shadow: black 2px 3px 4px;
+	border-radius: 10px; 
 	color: rgb(255,60,16);
 	text-align: center;
-	margin: 20px 20px 20px 20px; /* Отступ слева */
+	margin: 20px 50px 50px 480px; /* Отступ слева */
     width: 500px; /* Ширина слоя */
-    background: rgb(100,100,100); /* Цвет фона */
-    padding: 10px; /* Поля вокруг текста */
+    background: black; /* Цвет фона (поля) */
+    padding: 20px; /* Поля вокруг текста */
 }
