@@ -103,4 +103,19 @@
 	margin: 60px 0 10px 0;
 }
 
+#MU_Index {
+	image-rendering: auto;
+	border-radius: 30px; 
+	font-family: Century Gothic, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: black 2px 3px 4px;
+	color: rgb(255,60,16);
+	text-align: center;
+	margin: 20px 20px 20px 20px; /* Отступ слева */
+    width: 500px; /* Ширина слоя */
+    background: rgb(100,100,100); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+
 
