@@ -126,7 +126,7 @@
 
 #MUIndex2 {
 	image-rendering: auto;
-	border-radius: 10px; 
+	border-radius: 100px; 
 	color: rgb(255,60,16);
 	text-align: center;
 	margin: 20px 30px 50px 470px; /* Отступ слева */
@@ -142,7 +142,7 @@
 }
 
 ul.main_menu {
-    margin: 0px 0px 0px 500px; /* Значение отступов */
+    margin: 0px 0px 0px 35%; /* Значение отступов */
     padding: 5px; /* Значение полей */
    }
 ul.main_menu li {
@@ -153,5 +153,4 @@ ul.main_menu li {
     border-radius: 10px;
 	font-size: 200%;
 	font-family: Century Gothic, sans-serif;
-	text-shadow: aqua 2px 3px 4px;
    }
