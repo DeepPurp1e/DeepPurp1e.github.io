@@ -72,7 +72,6 @@
 
 #logo { 
     position:absolute;
-	left:;
 	top: 5px;
 	float: right;
 	
@@ -101,7 +100,7 @@
 	
 }
 #line {
-	margin: 60px 0 10px 0;
+	margin: 60px 0 0px 0;
 }
 
 #MU_Index {
@@ -130,8 +129,29 @@
 	border-radius: 10px; 
 	color: rgb(255,60,16);
 	text-align: center;
-	margin: 20px 50px 50px 480px; /* Отступ слева */
+	margin: 20px 30px 50px 470px; /* Отступ слева */
     width: 500px; /* Ширина слоя */
+	height:500px; /* Высота слоя */
     background: black; /* Цвет фона (поля) */
-    padding: 20px; /* Поля вокруг текста */
+    padding: 10px; /* Поля вокруг текста */
 }
+
+
+.menu_url {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+ul.main_menu {
+    margin: 0px 0px 0px 500px; /* Значение отступов */
+    padding: 5px; /* Значение полей */
+   }
+ul.main_menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #ffffff; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+    border-radius: 10px;
+	font-size: 200%;
+	font-family: Century Gothic, sans-serif;
+	text-shadow: aqua 2px 3px 4px;
+   }
