@@ -143,14 +143,22 @@
 
 ul.main_menu {
     margin: 0px 0px 0px 35%; /* Значение отступов */
-    padding: 5px; /* Значение полей */
+    padding: 7px; /* Значение полей */
    }
 ul.main_menu li {
     display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
+    margin-right: 30px; /* Отступ слева */
     border: 1px solid #ffffff; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
+    padding: 5px; /* Поля вокруг текста */
     border-radius: 10px;
 	font-size: 200%;
 	font-family: Century Gothic, sans-serif;
+	float: left;
+	
    }
+   
+body {
+      width: 100%;
+      min-width: 1024px;
+      max-width: 1920px;
+}
